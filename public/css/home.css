@@ -1,0 +1,446 @@
+.fondo {
+    background-color: #EAC926;
+    border: turquoise;
+}
+
+.logo {
+    height: 70px;
+    width: 60%;
+    margin-top: 40px;
+}
+
+#barra-search {
+    display: flex;
+    align-items: center;
+}
+#barra-search .fulltext-search-box {
+    width: 100%;
+    height: 7vw;
+    border-radius: 0px;
+    color: #999999;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    padding-left: 10px;
+    background: white;
+    border: black;
+    outline: none;
+    margin-top: 10px
+}
+#barra-search button.btn-buscar {
+    position: relative;
+    right: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+    width: 45px;
+    height: 7vw;
+    outline: none;
+    margin-top: 10px;
+}
+
+
+#boton {
+    padding: 1px 1px 1px 1px;
+}
+
+#tipografia {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.subtitulo {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cuerposDeTexto {
+    font-size: 12px;
+    color: black;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.burger-menu {
+    color: white;
+    background-color: #1259c3;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.subtitulosMain {
+    font-size: 26px;
+    font-weight: 600;
+    padding: 4px;
+    color: rgb(92, 91, 91);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+article {
+    background-color: #ebebeb;
+    box-shadow: 0px 0px 0px 0px black;
+    margin: 20px;
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.precios {
+    font-size: 21px;
+    margin-top: 10px;
+    width: 30%;
+    height: auto;
+    display: contents;
+}
+
+section {
+    border-top: solid 1.5px #ebebeb;
+    background-color: white;
+    box-shadow: 0px 0px 0px 0px black;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    position: relative;
+}
+
+.descuestos {
+    font-size: 18px;
+    color: rgb(135, 192, 21);
+    width: 70%;
+    height: auto;
+    display: contents;
+}
+
+
+.descripciones  {
+    font-size: 0px;
+    padding-top: 10px;
+    width: 100%;
+    height: 10px;
+    transition: font-size 1s, height 800ms;
+  }
+  
+  .descripciones:hover {
+    height: 30px;
+    font-size: 16px;
+  }
+.icon {
+    color: rgb(22, 150, 22);
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.titularesFooter {
+    color: #666;
+    text-align: center;
+    font-size: 19px;
+    margin-right: 100;
+    font-weight: bolder;
+}
+
+.cuerpoFooter {
+    color: #8b8b8b;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 14px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+#copiraight {
+    color: #cac7c7;
+    margin-top: 30px;
+    margin: 30px;
+}
+
+#footerDiv {
+    background-color: white;
+    padding: 0px;
+    border: 5px solid#ebebeb;
+    box-shadow: 3px;
+}
+
+.fasfa-credit-card {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #1259c3;
+}
+
+.fasfa-credit-card i:hover{
+    color: #0022AA;    
+}
+main {
+    background-color: #ebebeb;
+    margin: 0px;
+    border: 20px solid #ebebeb;;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.control {
+    width: 100%;
+    padding: 8px;
+}
+
+.desaparece {
+    display: none;
+}
+
+.minNaviar {
+    display: none;
+}
+
+.subtitulo {
+    font-size: 16px;
+}
+
+.display {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    padding-bottom: 20px;
+}
+
+#barraDeBusqueda{
+    margin-top: 30px;
+}
+.body-register {
+    background-color: #e4e4e4;
+    font-family: -webkit-pictograph;
+}
+
+.formulario {
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+
+.formulario div {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.formulario div label {
+    display: block;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario-input {
+    width: 100%;
+}
+
+input::placeholder{
+    padding-left: 10px;
+    color: #9ca1ac;
+    font-size: 3vw;
+  }
+
+@media (min-width: 769px) {
+
+    input::placeholder{
+        padding-left: 10px;
+        color: #9ca1ac;
+        font-size: 2vw;
+      }
+    
+    .subtitulosMain {
+        width: 100%;
+    }
+    article {
+        width: 20%;
+       ;
+    }
+
+    article:hover{
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+    .article-div {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    .minNaviar {
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .chauTablet {
+        display: none;
+    }
+    .display {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .subtitulo {
+        max-width: 350px;
+        text-align: right;
+        font-size: 18px;
+        margin-right: 28px;
+        align-self: flex-end;
+        width: 25%;
+    }
+    .logo {
+        width: 25%;
+        display: flex;
+        align-items: left;
+    }
+    .display ul {
+        display: flex;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .display li {
+        margin: 0 5px;
+    }
+
+    #barra-search{
+        width: 25%;
+        align-self: flex-end;
+    }
+
+    #barra-search .fulltext-search-box {
+        width: 100%;
+        height: 5vw;
+        border-radius: 0px;
+        color: #999999;
+        font-size: 13px;
+        letter-spacing: 0.01em;
+        padding-left: 10px;
+        background: white;
+        border: black;
+        outline: none;
+        margin-top: 10px
+    }
+    #barra-search button.btn-buscar {
+        position: relative;
+        right: 0px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        border: none;
+        border-radius: 0px;
+        width: 45px;
+        height: 5vw;
+        outline: none;
+        margin-top: 10px;
+    }
+}
+    
+ @media (min-width: 1200px) {
+
+    input::placeholder{
+        padding-left: 10px;
+        color: #9ca1ac;
+        font-size: 1vw;
+      }
+      
+    .minNaviar,
+    .display {
+            max-width: 1200px;
+            margin: auto;
+           
+        }
+    .display li {
+            margin: 0 10px;
+            margin-top: 20px;
+        }
+     .display a {
+            font-size: 19px;
+        }
+     .subtitulo {
+            max-width: none;
+            text-align: right;
+            font-size: 25px;
+            margin-right: 28px;
+        }
+    #barra-search{
+        width: 25%;
+        align-self: flex-end;
+    }
+
+    #barra-search .fulltext-search-box {
+        width: 100%;
+        height: 3vw;
+        border-radius: 0px;
+        color: #999999;
+        font-size: 13px;
+        letter-spacing: 0.01em;
+        padding-left: 10px;
+        background: white;
+        border: black;
+        outline: none;
+        margin-top: 10px
+    }
+    #barra-search button.btn-buscar {
+        position: relative;
+        right: 0px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        border: none;
+        border-radius: 0px;
+        width: 45px;
+        height: 3vw;
+        outline: none;
+        margin-top: 10px;
+    }
+
+    .footer-disposicion{
+        display: flex;
+    }
+    .fasfa-credit-card{
+        margin-top: 25px;
+    }
+    
+}

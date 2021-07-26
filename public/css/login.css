@@ -1,0 +1,66 @@
+.formulario {
+    margin: 0 auto;
+    padding: 20px 15%;
+}
+
+.formulario div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.formulario div label {
+    display: block;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+input::placeholder{
+    padding-left: 10px;
+    color: #9ca1ac;
+}
+
+.buton-enviar{
+    background-color: blue;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.buton-enviar:hover{
+    background-color: #0022AA;
+}
+main {
+    border: none;
+    font-family: system-ui;
+    font-size: 20px;
+}
+
+
+.fasfa-credit-card{
+    color: #1259c3;
+}
+.fasfa-credit-card i:hover{
+    color: #0022AA;    
+}
+
+@media (min-width: 1200px){
+    .footer-disposicion{
+      display: flex;
+  }
+  .fasfa-credit-card{
+      margin-top: 25px;
+      
+  }
+  }
+  
