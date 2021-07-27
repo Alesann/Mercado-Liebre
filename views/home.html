@@ -6,9 +6,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Mercado liebre</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' href='/css/home.css'>
+    <link rel='stylesheet' href='/css/home.css'/>
+    <link rel='stylesheet' href='/css/menu.css'/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-    <link rel='stylesheet' href='/css/normalize.css'>
+    <link rel='stylesheet' href='/css/normalize.css'/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <title>Home</title>
 </head>
@@ -17,7 +18,9 @@
     <header class="fondo">
         <div class="display">
 
-            <img src="/images/logo-mercado-liebre.svg" alt="Mercado liebre logo" class="logo" />
+            <div class="logo">
+                <a href="/ "><img src="/images/logo-mercado-liebre.svg" alt="Mercado liebre logo"/></a>
+                </div>
           
             <div id="barra-search">
                 <input class="fulltext-search-box" type="text" placeholder="Buscar productos...">
@@ -46,11 +49,23 @@
                 </ul>
             </nav>
         </div>
-        <div class="chauTablet">
-            <div class="burger-menu ">
-                <i class="fas fa-bars fa-1x "></i>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"> 
+            <div class="chauTablet">
+                <div class="burger-menu ">
+                    <i class="fas fa-bars fa-1x "></i>
+                </div>
             </div>
-        </div>
+        </label>
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="login">Ingresá</a></li>
+                <li><a href="register">Crea tu cuenta</a></li>
+                <li><a href="/ ">Inicio</a></li>
+                <li><a href="/ ">Mis compras</a></li>
+                <li><a href="/ ">Ayuda</a></li>
+            </ul>
+        </nav>
         <div class="banner"><img src="/images/img-home-banner.jpg " alt="Banner " width="100%" /></div>
     </header>
 

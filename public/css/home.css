@@ -4,8 +4,8 @@
 }
 
 .logo {
-    height: 70px;
-    width: 60%;
+    height: 18vw;
+    width: 58vw;
     margin-top: 40px;
 }
 
@@ -75,14 +75,13 @@ a {
     color: white;
     background-color: #1259c3;
     text-align: center;
-    width: 25px;
-    height: 25px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     border-radius: 5px;
     padding: 5px;
     font-size: 18px;
     margin-bottom: 20px;
-    margin-top: 20px
 }
 
 .subtitulosMain {
@@ -337,8 +336,7 @@ input::placeholder{
     }
     .logo {
         width: 25%;
-        display: flex;
-        align-items: left;
+        height: auto;
     }
     .display ul {
         display: flex;
@@ -381,8 +379,36 @@ input::placeholder{
         margin-top: 10px;
     }
 }
+
+@media (min-width:380px) and (max-width: 768px) {
+    .logo {
+        height: 18vw;
+        width: 58vw;
+        margin-top: 40px;
+    }
+    #barra-search {
+        width: 60%;
+    }
+    .subtitulo {
+        font-size: 22px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1200px){
+    .logo {
+        width: 25%;
+        height: auto;
+    }
+    #barra-search {
+        width: 25%;
+    }
+    .subtitulo {
+        font-size: 18px;
+    }
+}
+
     
- @media (min-width: 1200px) {
+@media (min-width: 1200px) {
 
     input::placeholder{
         padding-left: 10px;

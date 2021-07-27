@@ -1,0 +1,151 @@
+#btn-menu{
+    display: none;
+}
+
+.menu-nav{
+    display: none;
+}
+
+@media (max-width:769px){
+.banner{
+    margin-top: 25px;
+}
+    
+header label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+    
+header label:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+    
+.menu-nav {
+    display: block;
+    position: absolute;
+    top: 0px;
+    background-color: rgb(9 12 5 / 93%);
+    width: 101%;
+    height: 60%;
+    margin-left: -101%;
+    transition: all 1s;
+    text-align: center;
+}
+
+.menu-nav ul{
+    width: 100%;
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+}
+
+#btn-menu:checked ~ .menu-nav{
+    margin: 0px;
+}
+
+.menu-nav li a{
+    display: block;
+    padding: 20px 20px;
+    color: white;
+}
+
+}
+
+@media (min-height:550px) and (max-height: 750px) {
+    .menu-nav{
+        height: 50%;
+    }
+    .menu-nav ul{
+        width: 100%;
+        font-size: 28px;
+    }
+    .menu-nav li a{
+        display: block;
+        padding: 14px 20px;
+        color: white;
+    } 
+}
+
+@media (min-height:550px) and (max-height: 567px) {
+    .menu-nav{
+        height: 50%;
+    }
+    .menu-nav ul{
+        width: 100%;
+        font-size: 28px;
+    }
+    .menu-nav li a{
+        display: block;
+        padding: 13px 20px;
+        color: white;
+    }
+}
+
+@media (min-height:568px) and (max-height: 699px) {
+    .menu-nav{
+        height: 55%;
+    }
+    .menu-nav ul{
+        width: 100%;
+        font-size: 28px;
+    }
+    .menu-nav li a{
+        display: block;
+        padding: 13px 20px;
+        color: white;
+    }
+}
+
+@media (min-height:700px) and (max-height: 750px) {
+    .menu-nav{
+        height: 44%;
+    }
+    .menu-nav ul{
+        width: 100%;
+        font-size: 28px;
+    }
+    .menu-nav li a{
+        display: block;
+        padding: 13px 20px;
+        color: white;
+    }
+}
+
+@media (min-height:766px) and (max-height: 850px) {
+    .menu-nav{
+        height: 40%;
+    }
+    .menu-nav ul{
+        width: 100%;
+        font-size: 28px;
+    }
+    .menu-nav li a{
+        display: block;
+        padding: 13px 20px;
+        color: white;
+    }
+}
+
+@media (min-height: 851px) and (max-height: 1200px) {
+    .menu-nav{
+        height: 40%;
+    }
+    .menu-nav ul{
+        width: 100%;
+        font-size: 35px;
+    }
+    .menu-nav li a{
+        display: block;
+        padding: 15px 20px;
+        color: white;
+    }
+}
+
+
+
+
+
