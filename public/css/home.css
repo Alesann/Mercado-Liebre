@@ -316,6 +316,8 @@ input::placeholder{
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
+        width: 100%;
+        justify-content: space-between;
     }
     .chauTablet {
         display: none;
